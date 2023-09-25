@@ -1,0 +1,36 @@
+/*
+1. CSS 파일을 만들고 외부 스타일 시트로 포함시킵니다.
+2. CSS를 사용하여 각 색상 제목을 의미에 맞게 스타일링합니다.
+   힌트: 스페인어 단어를 모르면 id를 사용하여 도움을 받을 수 있습니다.
+3. CSS를 사용하여 모든 색상 제목의 "font-weight"를 "normal"로 변경합니다.
+4. CSS(HTML이 아님)를 사용하여 모든 이미지를 높이와 너비가 200px인 크기로 만듭니다.
+   힌트:
+   - https://developer.mozilla.org/en-US/docs/Web/CSS/height
+   - https://developer.mozilla.org/en-US/docs/Web/CSS/width  */
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+}
+
+#orange{
+    color: orange;
+}
+
+#green{
+    color: green;
+}
+
+#yellow{
+    color: yellow;
+}
+
+.color-title{
+    font-weight: normal;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
