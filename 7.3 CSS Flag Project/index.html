@@ -6,17 +6,51 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+    .flag {
+      height: 600px;
+      width: 900px;
+      background-color:#ce1126;
+      position: relative;
+    }
+
+    .flag > div {
+      background-color:#002868;
+      width: 100%;
+      height: 300px;
+      top: 150px;
+      position: absolute;
+    }
+
+    .flag > div > div {
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+    }
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .flag > div div p {
+    color: black;
+  }
   </style>
 </head>
 
 <!-- 
-  IMPORTANT! Do not change any HTML
-Don't add any classes/ids/elements 
-Use what you know about combining selectors 
-and CSS specificity instead.
-Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
-Hint 2: You can use CSS inspection to get the colors from
+  중요! HTML을 변경하지 마세요
+클래스/아이디/요소를 추가하지 마세요
+대신 선택자 결합과 CSS 특정성에 관한 지식을 활용하세요.
+힌트 1: 국기의 크기는 900px x 600px이며 원의 크기는 200px x 200px입니다.
+힌트 2: 국기의 색상 정보는 다음 웹 페이지에서 CSS 검사 도구를 사용하여 얻을 수 있습니다.
 https://appbrewery.github.io/flag-of-laos/
 -->
 
