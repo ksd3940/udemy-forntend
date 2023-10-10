@@ -2,9 +2,9 @@
 <html lang="en">
 
 <!-- TODO
-1. Make both paragraph elements wrap around the image.
-2. Use Float to move the cat div to the left and the dog div to the right.
-3. Use clear to make the footer go below both the cat and dog div. -->
+1. 두 개의 문단 요소를 이미지 주위로 묶습니다.
+2. 고양이(div)를 왼쪽으로 이동하기 위해 float를 사용하고, 강아지(div)를 오른쪽으로 이동합니다.
+3. clear를 사용하여 푸터를 고양이와 강아지 div 아래로 이동시킵니다. -->
 
 <head>
   <meta charset="UTF-8">
@@ -13,23 +13,31 @@
     div {
       display: inline-block;
       width: 40%;
+      
     }
 
     p {
       font-size: 2em;
+      
     }
 
     .cat {
       background-color: aquamarine;
+      float: left;
     }
 
     .dog {
       background-color: coral;
+      float: right;
     }
 
     footer {
       text-align: center;
       background-color: blueviolet;
+      clear:both
+    }
+    img {
+      float: left;
     }
   </style>
 </head>
